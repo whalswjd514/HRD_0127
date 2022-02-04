@@ -17,7 +17,7 @@
 	String outdate=request.getParameter("outdate");
 	String indate=request.getParameter("indate");
 	String status=request.getParameter("status");
-	String class1=request.getParameter("class");
+	String class1=request.getParameter("class1");
 	
 	try{
 		String sql="insert into reservation0127 values(?,?,?,?,?,?,?)";
